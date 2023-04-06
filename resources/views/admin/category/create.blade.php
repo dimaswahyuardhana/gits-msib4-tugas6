@@ -27,7 +27,7 @@
                                             @method('delete')
                                             @csrf
                                             <div class="btn-group">
-                                                <a href="{{ url('/update',$item->id) }}"
+                                                <a href="{{ url('/updatecategory',$item->id) }}"
                                                     class="btn btn-warning btn-sm">
                                                     UPDATE
                                                 </a>

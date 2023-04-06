@@ -28,7 +28,7 @@ Route::middleware(['auth:web'])->group(function () {
     Route::get('/category', [CategoryController::class, 'index']);
     Route::get('/product', [ProductController::class, 'index']);
     Route::get('/tambah_kategori', [CategoryController::class, 'create']);
-    Route::get('/update/{id}', [CategoryController::class, 'edit']);
+    Route::get('/updatecategory/{id}', [CategoryController::class, 'edit']);
     Route::get('/update/{id}', [ProductController::class, 'edit']);
     Route::get('/tambah_produk', [ProductController::class, 'create']);
 
